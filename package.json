@@ -1,0 +1,58 @@
+{
+  "name": "x",
+  "version": "1.1.1",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@material-ui/core": "^4.12.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.4.3",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19",
+    "pkg-dir": "^6.0.1",
+    "react": "^18.2.0",
+    "react-animated-cursor": "^2.5.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.34.1",
+    "react-modal": "^3.15.1",
+    "react-pwa-install": "^1.0.12",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "react-tabs": "^5.1.0",
+    "react-transition-group": "^4.4.5",
+    "slick-carousel": "^1.8.1",
+    "svgo": "^2.8.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "direction-reveal": "^2.0.2"
+  }
+}
