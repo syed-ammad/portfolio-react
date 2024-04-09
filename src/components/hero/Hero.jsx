@@ -4,8 +4,8 @@ import Index from "../../components/about/index";
 
 const heroContent = {
   // heroImage: "img/hero/dark.jpg",
-  heroImage: "img/hero2.heic",
-  heroMobileImage: "img/hero.jpg",
+  heroImage: "img/hero_1.png",
+  heroMobileImage: "img/hero_1.png",
   heroTitleName: "Syed Ammad",
   heroDesignation: "Senior Developer",
   heroDescriptions: `I'm a lahore based fullstack web & mobile developer focused on
