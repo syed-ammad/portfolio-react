@@ -1,42 +1,42 @@
-import React, { useState } from "react";
-import Modal from "react-modal";
-import Index from "../../components/about/index";
+  import React, { useState } from "react";
+  import Modal from "react-modal";
+  import Index from "../../components/about/index";
 
-const heroContent = {
-  // heroImage: "img/hero/dark.jpg",
-  heroImage: "img/hero_1.png",
-  heroMobileImage: "img/hero_1.png",
-  heroTitleName: "Syed Ammad",
-  heroDesignation: "Senior Developer",
-  heroDescriptions: `I'm a lahore based fullstack web & mobile developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
-  heroBtn: "more about me",
-};
+  const heroContent = {
+    // heroImage: "img/hero/dark.jpg",
+    heroImage: "img/hero_1.png",
+    heroMobileImage: "img/hero_1.png",
+    heroTitleName: "Syed Ammad",
+    heroDesignation: "Senior Developer",
+    heroDescriptions: `I'm a lahore based fullstack web & mobile developer focused on
+    crafting clean & user‑friendly experiences, I am passionate about
+    building excellent software that improves the lives of those
+    around me.`,
+    heroBtn: "more about me",
+  };
 
-const Hero = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  function toggleModalOne() {
-    setIsOpen(!isOpen);
-  }
+  const Hero = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    function toggleModalOne() {
+      setIsOpen(!isOpen);
+    }
 
-  return (
-    <>
-      <div className="row home-details-container align-items-center">
-        <div
-          className="col-lg-4 bg position-fixed d-none d-lg-block"
-          style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + heroContent.heroImage
-            })`,
-          }}
-        ></div>
-        <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
-          <div>
-            <img
-              src={heroContent.heroMobileImage}
-              className="img-fluid main-img-mobile d-sm-block d-lg-none"
+    return (
+      <>
+        <div className="row home-details-container align-items-center">
+          <div
+            className="col-lg-4 bg position-fixed d-none d-lg-block"
+            style={{
+              backgroundImage: `url(${
+                process.env.PUBLIC_URL + heroContent.heroImage
+              })`,
+            }}
+          ></div>
+          <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
+            <div>
+              <img
+                src={heroContent.heroMobileImage}
+                className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
             <h1 className="text-uppercase poppins-font">

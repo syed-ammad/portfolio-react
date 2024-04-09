@@ -9,8 +9,8 @@ import ModalNineContent from "./modal/ModalNineContent";
 import ModalContent from "./modal/ModalContent";
 
 const Portfolio = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const [isOpen2, setIsOpen2] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
   const [isOpen5, setIsOpen5] = useState(false);
@@ -64,7 +64,7 @@ const Portfolio = () => {
     return (
       <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
         <figure onClick={toggleModel}>
-          <img src={img} alt="Portolio" width={"100%"} height={"230px"} />
+          <img style={{objectFit:"cover"}} src={img} alt="Portolio" width={"100%"} height={"230px"} />
           <div className=" hover-content-wrapper">
             <span className="content-title">{name}</span>
           </div>
@@ -123,8 +123,8 @@ const Portfolio = () => {
             },
           ]}
         />
-        ),
-        name: "Slaybids Web App",
+      ),
+      name: "Slaybids Web App",
     },
     {
       img: "img/projects/dring_web_1.png",

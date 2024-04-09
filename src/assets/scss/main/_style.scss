@@ -1326,6 +1326,7 @@ body.light .contact .custom-span-contact a {
     border-radius: 50%;
     width: 270px;
     height: 270px;
+    object-fit: cover;
     border: 4px solid #252525;
     margin: 0 auto 25px;
     display: block;
@@ -1594,6 +1595,7 @@ body.light .contact .custom-span-contact a {
   .main-img-mobile {
     width: 230px;
     height: 230px;
+    background-size: cover;
   }
   .title-section {
     padding-left: 15px;
